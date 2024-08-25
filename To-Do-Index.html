@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List Entregable Estiven Leoncino</title>
+    <link rel="stylesheet" href="To-do-Style.css" />
+  </head>
+  <body>
+    <header>
+ <div class="container">
+      <div class="stats-container">
+        <div class="details">
+          <h1>To-do List</h1>
+          <p>MANYA Style</p>
+          <div id="progressBar">
+            <div id="progress"></div>
+          </div>
+        </div>
+        <div class="stats-numbers">
+          <p id="numbers">0 / 0</p>
+        </div>
+      </div>
+    </header>   
+<main>
+  <form>
+        <input
+          id="taskInput"
+          type="text"
+          placeholder="Escribe aquí tu nueva tarea"
+        />
+        <button id="newTask" type="submit">+</button>
+      </form>
+
+      <ul id="task-list"></ul>
+    </div>
+</main>
+
+<footer>
+  <img class="escudo" src="/Media/Escudo_de_Peñarol.svg" alt="" />  
+</footer>
+      
+    
+    <script src="To-Do-Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+  </body>
+</html>
